@@ -8,8 +8,11 @@ fastapi = "==0.65.1"
 uvicorn = "==0.14.0"
 motor = "==2.4.0"
 python-dotenv = "*"
+pymongo = {extras = ["srv"], version = "*"}
+certifi = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.7"
